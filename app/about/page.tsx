@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: 'About page'
+    title: 'About page',
+    description: 'About page description'
   }
 }
 
