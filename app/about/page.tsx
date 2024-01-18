@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'About page',
-  description: 'Its about page description'
+export const generateMetadata = (): Metadata => {
+  return {
+    title: 'About page'
+  }
 }
 
 const About = () => {
