@@ -1,11 +1,5 @@
+import type { Metadata } from 'next'
 import { FC } from 'react'
-import { Metadata } from 'next'
-
-export const generateMetadata = ({ params }: UserProps): Metadata => {
-  return {
-    title: `User ${params.userId}`,
-  }
-}
 
 type UserProps = {
 	params: {
@@ -13,12 +7,18 @@ type UserProps = {
 	}
 }
 
-const User: FC<UserProps> = ({ params }) => {
+export const generateMetadata = ({ params }: UserProps ): Metadata => {
+	return {
+		title: `User ${ params.userId }`
+	}
+}
+
+const UserPage: FC<UserProps> = ({ params }) => {
 	return (
 		<>
-			<h1>User Id: { params.userId }</h1>
+			<h1>User { params.userId }</h1>
 		</>
 	)
 }
 
-export default User
+export default UserPage
