@@ -1,15 +1,15 @@
-import type { Metadata } from 'next'
+'use client'
 
-export const generateMetadata = (): Metadata => {
-  return {
-    title: 'About page',
-    description: 'About page description'
-  }
-}
+import { useRouter } from 'next/navigation'
 
 const About = () => {
+  const router = useRouter()
+
   return (
-    <h1>Welcome About!!!</h1>
+    <>
+      <h1>Welcome About!!!</h1>
+      <button onClick={ () => router.replace('/') }>Redirect User</button>
+    </>
   )
 }
 
