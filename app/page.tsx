@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Link from 'next/link'
-import './home.css'
+import styles from './home.module.css'
 
 const routes = [
   { name: 'Home', path: '/' },
@@ -14,9 +14,9 @@ const routes = [
 const Home: FC = () => {
   return (
     <>
-      <h1 className='heading'>Welcome Home!!!</h1>
-      <h2>SiteMap:</h2>
-      <nav className='navigation'>
+      <h1 className={ styles.heading }>Welcome Home!!!</h1>
+      <h2 className={ styles.heading2 }>SiteMap:</h2>
+      <nav className={ styles.navigation }>
         {
           routes.map((route, index) => (
             <Link key={index} href={route.path}>
