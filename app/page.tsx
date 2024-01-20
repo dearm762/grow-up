@@ -1,15 +1,7 @@
 import { FC } from 'react'
 import Link from 'next/link'
 import styles from './home.module.css'
-
-const routes = [
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Forgot Password', path: '/forgot-password' },
-  { name: 'Sign In', path: '/sign-in' },
-  { name: 'Sign Up', path: '/sign-up' },
-  { name: 'Users', path: '/users/1' }
-]
+import routes from './_src/routes'
 
 const Home: FC = () => {
   return (
