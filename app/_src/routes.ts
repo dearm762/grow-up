@@ -11,7 +11,7 @@ const routes: Array<routeType> = [
   { name: 'Sign Up', path: '/sign-up' },
   { name: 'Users/[userId]', path: '/users/1' },
   { name: 'Photos', path: '/photos' },
-  { name: 'Photos/[photoId]', path: '/photos/1' }
+  { name: 'Photos/[photoId]', path: '/photos/1' },
   { name: 'PrivatePage', path: '/private' }
 ]
 
