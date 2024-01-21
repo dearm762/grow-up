@@ -1,0 +1,7 @@
+.container {
+	@apply min-h-screen flex p-5 gap-5
+}
+
+.navPhoto {
+	@apply rounded-xl
+}
