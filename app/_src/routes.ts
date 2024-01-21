@@ -9,7 +9,9 @@ const routes: Array<routeType> = [
   { name: 'Forgot Password', path: '/forgot-password' },
   { name: 'Sign In', path: '/sign-in' },
   { name: 'Sign Up', path: '/sign-up' },
-  { name: 'Users', path: '/users/1' }
+  { name: 'Users/[userId]', path: '/users/1' },
+  { name: 'Photos', path: '/photos/1' },
+  { name: 'Photos/[photoId]', path: '/photos' }
 ]
 
 export default routes
