@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Link from 'next/link'
 import photoData from '../_src/photoData'
-
+import Image from 'next/image'
 import styles from './styles.module.css'
 
 const Photos: FC = () => {
@@ -11,7 +11,7 @@ const Photos: FC = () => {
 				{
 					photoData.map(photo => (
 						<Link key={ photo.id } href={ `/photos/${photo.id}` }>
-							<img src={ photo.src } width={300} />
+							<Image src={ photo.src } width={300} height={300} alt='alt of photo' />
 						</Link>
 					))
 				}
