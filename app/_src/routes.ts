@@ -1,9 +1,9 @@
-type routesType = {
+type routeType = {
   name: string,
   path: string
 }
 
-const routes: Array<routesType> = [
+const routes: Array<routeType> = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
   { name: 'Forgot Password', path: '/forgot-password' },
