@@ -2,6 +2,7 @@ import { FC } from 'react'
 import photoData from '@/app/_src/photoData'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
+
 import styles from './photo.module.css'
 
 type PhotoPropsType = {
