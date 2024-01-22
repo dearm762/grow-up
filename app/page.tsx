@@ -10,8 +10,8 @@ const Home: FC = () => {
       <h2 className={ styles.heading2 }>Current available Routes:</h2>
       <nav className={ styles.navigation }>
         {
-          routes.map((route, index) => (
-            <Link key={index} href={route.path}>
+          routes.map( route => (
+            <Link key={route.path} href={route.path}>
               {route.name}
             </Link>
           ))
