@@ -1,7 +1,5 @@
-import photoData from '@/app/_src/photoData'
+import photoData from '@/app/_system/photoData'
 
 export async function GET() {
-	return Response.json(
-		photoData
-	)
+	return Response.json(photoData)
 }

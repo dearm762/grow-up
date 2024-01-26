@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-	@apply bg-neutral-900 text-zinc-100
+	@apply bg-neutral-900 text-zinc-100 flex flex-col min-h-screen
 }

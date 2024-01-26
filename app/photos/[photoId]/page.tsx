@@ -1,7 +1,7 @@
-import { FC } from 'react'
-import photoData from '@/app/_src/photoData'
-import { notFound } from 'next/navigation'
+import photoData from '@/app/_system/photoData'
 import Image from 'next/image'
+import { notFound } from 'next/navigation'
+import { FC } from 'react'
 
 import styles from './photo.module.css'
 
@@ -18,9 +18,9 @@ const PhotoPage: FC<PhotoPropsType> = ({ params }) => {
 
 	return (
 		<>
-			<div className={ styles.photoContainer }>
-				<h1>Photo Id: { photo?.id }</h1>
-				<Image src={ photo?.src } width={600} height={600} alt='alt of photo' />
+			<div className={styles.photoContainer}>
+				<h1>Photo Id: {photo?.id}</h1>
+				<Image src={photo?.src} width={600} height={600} alt='alt of photo' />
 			</div>
 		</>
 	)
