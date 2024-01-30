@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FC } from 'react'
+
 import photoData from '../_system/photoData'
 import styles from './styles.module.css'
 
