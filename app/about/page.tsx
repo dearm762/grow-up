@@ -1,16 +1,10 @@
-'use client'
-
-import { useRouter } from 'next/navigation'
-
 const About = () => {
-  const router = useRouter()
-
   return (
     <>
-      <h1>Welcome About!!!</h1>
-      <button onClick={ () => router.replace('/') }>Redirect User</button>
+      <h1>Welcome to about page!!!</h1>
+      <p>In honestly this is my first next js website</p>
     </>
   )
-}
+} 
 
 export default About

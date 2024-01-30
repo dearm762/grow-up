@@ -6,7 +6,7 @@ interface FormHeadingProps {
 
 const FormHeading: FC<FormHeadingProps> = ({ children }) => {
 	return (
-		<h1>{ children }</h1>
+		<h1 style={{ fontWeight: 'bold', fontSize: '21px' }}>{ children }:</h1>
 	)
 }
 
