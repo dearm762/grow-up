@@ -1,9 +1,12 @@
+import FormHeading from '@/app/_system/components/FormHeading'
 import { FC } from 'react'
 
 const ForgotPassword: FC = () => {
 	return (
 		<>
-			<h1>Forgot Password</h1>
+			<FormHeading>Forgot Password</FormHeading>
+				<input name='email' placeholder='Email:' />
+				<button>Send code</button>
 		</>
 	)
 }

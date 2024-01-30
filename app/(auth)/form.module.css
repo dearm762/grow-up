@@ -1,3 +1,8 @@
 .Form {
-	@apply m-auto
+	@apply m-auto w-full flex flex-col p-5 rounded-xl max-w-[433px] border-2 border-solid border-white gap-5;
+}
+
+.Form input {
+	@apply p-2 rounded-t-md bg-black outline-none;
+	border-bottom: solid 2px white;
 }

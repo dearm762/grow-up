@@ -6,12 +6,10 @@ import styles from '../form.module.css'
 const SignIn: FC = () => {
 	return (
 		<>
-			<form action="" className={ styles.Form }>
 				<FormHeading>Sign In</FormHeading>
-				<input name='email' />
-				<input name='passord' />
+				<input name='email' placeholder='Email:' />
+				<input name='password' placeholder='Password:' />
 				<button>Sign In</button>
-			</form>
 		</>
 	)
 }

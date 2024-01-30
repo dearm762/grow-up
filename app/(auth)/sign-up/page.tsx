@@ -1,19 +1,17 @@
 import FormHeading from '@/app/_system/components/FormHeading'
 import { FC } from 'react'
 
-import styles from '../form.module.css'
-
-const SignIn: FC = () => {
+const SignUp: FC = () => {
 	return (
 		<>
-			<form action='post' className={ styles.Form }>
 				<FormHeading>Sign Up</FormHeading>
-				<input name='email' />
-				<input name='passord' />
-				<button>Sign In</button>
-			</form>
+				<input name='surname' placeholder='Surname:' />
+				<input name='name' placeholder='Name:' />
+				<input name='email' placeholder='Email:' />
+				<input name='password' placeholder='Password:' />
+				<button>Sign Up</button>
 		</>
 	)
 }
 
-export default SignIn
+export default SignUp
