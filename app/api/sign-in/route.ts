@@ -1,1 +1,1 @@
-export const POST = async (request: Request) => Response.json({ status: 'success' })
+export const POST = async (_request: Request) => Response.json({ status: 'success' })
