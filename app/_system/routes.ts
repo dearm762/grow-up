@@ -12,7 +12,6 @@ const routes: Array<routeType> = [
   { name: 'Users/[userId]', path: '/users/1' },
   { name: 'Photos', path: '/photos' },
   { name: 'Photos/[photoId]', path: '/photos/1' },
-  { name: 'PrivatePage', path: '/private' },
   { name: 'Get photos via API', path: '/api/get-photos' }
 ]
 
