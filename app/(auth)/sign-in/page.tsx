@@ -1,8 +1,6 @@
 import FormHeading from '@/app/_system/components/FormHeading'
 import { FC } from 'react'
 
-import styles from '../form.module.css'
-
 const SignIn: FC = () => {
 	return (
 		<>
