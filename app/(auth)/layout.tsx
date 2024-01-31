@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import styles from './form.module.css'	
+import styles from './form.module.css'
 
 export const metadata: Metadata = {
   title: 'Auth title',

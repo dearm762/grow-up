@@ -5,6 +5,6 @@ const About = () => {
       <p>In honestly this is my first next js website</p>
     </>
   )
-} 
+}
 
 export default About
