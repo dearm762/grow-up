@@ -1,5 +1,5 @@
 .NextUIProvider {
-	@apply m-auto w-full p-5 rounded-xl max-w-[433px] border-2 border-solid border-white;
+	@apply m-auto w-full p-5 rounded-xl max-w-[433px] border-2 border-solid border-white bg-gray-950;
 }
 
 .NextUIProvider form {

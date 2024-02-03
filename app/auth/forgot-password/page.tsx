@@ -38,6 +38,7 @@ const ForgotPassword: FC = () => {
 					name='email'
 					onChange={handleChange}
 					type='email'
+					description={'We wont share your email with anyone'}
 				/>
 				<Button
 					color='primary'
