@@ -11,7 +11,7 @@ export default function AuthLayout({
 	return (
 		<>
 			<NextUIProvider className={styles.NextUIProvider}>
-				<form className={styles.Form}>{children}</form>
+				{children}
 			</NextUIProvider>
 		</>
 	)
