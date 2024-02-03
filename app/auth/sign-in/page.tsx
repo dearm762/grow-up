@@ -2,7 +2,7 @@
 
 import FormHeading from '@/app/_system/components/FormHeading'
 import { Input } from '@nextui-org/react'
-import { FC, useState } from 'react'
+import { ChangeEvent, FC, useState } from 'react'
 import { EyeFilledIcon } from '@/app/_system/EyeFilledIcon'
 import { EyeSlashFilledIcon } from '@/app/_system/EyeSlashFilledIcon'
 import SignInValues from '@/app/_system/sign-in-type'
@@ -11,10 +11,14 @@ const SignIn: FC = () => {
 	const [isVisible, setIsVisible] = useState(false)
 	const [data, setData] = useState<SignInValues>({
 		email: '',
-		password: ''
+		password: '',
 	})
 
 	const toggleVisibility = () => setIsVisible(!isVisible)
+
+	const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+		setData((prev) => ({ ...prev, [e.target.name]: e.target.value }))
+	}
 
 	return (
 		<>
@@ -27,8 +31,10 @@ const SignIn: FC = () => {
 				isRequired
 				radius='none'
 				isClearable
-				onClear={() => console.log('input cleared')}
+				onClear={ () => setData((prev) => ({ ...prev, email: '' })) }
 				value={data.email}
+				name='email'
+				onChange={handleChange}
 			/>
 			<Input
 				label='Password'
@@ -52,6 +58,8 @@ const SignIn: FC = () => {
 				}
 				type={isVisible ? 'text' : 'password'}
 				value={data.password}
+				name='password'
+				onChange={handleChange}
 			/>
 			<button>Sign In</button>
 		</>
