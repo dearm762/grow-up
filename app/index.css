@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-	@apply text-zinc-100 flex flex-col min-h-screen;
-	background: #0f0f0f;
+	@apply text-zinc-100 flex flex-col min-h-screen bg-black;
 }
