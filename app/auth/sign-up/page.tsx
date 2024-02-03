@@ -74,6 +74,7 @@ const SignUp: FC = () => {
 					name='email'
 					onChange={handleChange}
 					type='email'
+					description="We'll never share your email with anyone else."
 				/>
 				<Input
 					label='Password'
@@ -99,6 +100,7 @@ const SignUp: FC = () => {
 					value={data.password}
 					name='password'
 					onChange={handleChange}
+					description='Password must contain Alphabets, numbers and at least one char.'
 				/>
 				<Button
 					color='primary'
