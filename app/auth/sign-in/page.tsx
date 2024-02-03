@@ -5,9 +5,14 @@ import { Input } from '@nextui-org/react'
 import { FC, useState } from 'react'
 import { EyeFilledIcon } from '@/app/_system/EyeFilledIcon'
 import { EyeSlashFilledIcon } from '@/app/_system/EyeSlashFilledIcon'
+import SignInValues from '@/app/_system/sign-in-type'
 
 const SignIn: FC = () => {
 	const [isVisible, setIsVisible] = useState(false)
+	const [data, setData] = useState<SignInValues>({
+		email: '',
+		password: ''
+	})
 
 	const toggleVisibility = () => setIsVisible(!isVisible)
 
@@ -23,6 +28,7 @@ const SignIn: FC = () => {
 				radius='none'
 				isClearable
 				onClear={() => console.log('input cleared')}
+				value={data.email}
 			/>
 			<Input
 				label='Password'
@@ -45,6 +51,7 @@ const SignIn: FC = () => {
 					</button>
 				}
 				type={isVisible ? 'text' : 'password'}
+				value={data.password}
 			/>
 			<button>Sign In</button>
 		</>
