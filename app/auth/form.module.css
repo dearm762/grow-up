@@ -1,12 +1,7 @@
+.NextUIProvider {
+	@apply m-auto w-full p-5 rounded-xl max-w-[433px] border-2 border-solid border-white;
+}
+
 .Form {
-	@apply m-auto w-full flex flex-col p-5 rounded-xl max-w-[433px] border-2 border-solid border-white gap-5;
-}
-
-.Form input {
-	@apply p-2 rounded-t-md bg-black outline-none;
-	border-bottom: solid 2px white;
-}
-
-.Form button {
-	@apply text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
+	@apply flex flex-col gap-5;
 }

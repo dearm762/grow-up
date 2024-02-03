@@ -1,16 +1,18 @@
-import type { Metadata } from 'next'
+'use client'
+
+import { NextUIProvider } from '@nextui-org/react'
 import styles from './form.module.css'
 
-export const metadata: Metadata = {
-  title: 'Auth title',
-  description: 'Sign in',
-  keywords: ['my', 'social', 'media']
-}
-
-export default function AuthLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <form className={ styles.Form }>
-      {children}
-    </form>
-  )
+export default function AuthLayout({
+	children,
+}: {
+	children: React.ReactNode
+}) {
+	return (
+		<>
+			<NextUIProvider className={styles.NextUIProvider}>
+				<form className={styles.Form}>{children}</form>
+			</NextUIProvider>
+		</>
+	)
 }
