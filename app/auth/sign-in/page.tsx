@@ -21,7 +21,7 @@ const SignIn: FC = () => {
 		setData(prev => ({ ...prev, [e.target.name]: e.target.value }))
 	}
 
-	const handleSubmit = (e: FormEvent<HTMLButtonElement>) => {
+	const handleSubmit = (e: any) => {
 		e.preventDefault()
 		console.log(data)
 		setIsLoading(true)
