@@ -31,6 +31,7 @@ const SignUp: FC = () => {
 
 	return (
 		<>
+			<title>Sign Up | PrivateWorld</title>
 			<form onSubmit={handleSubmit}>
 				<FormHeading>Sign Up</FormHeading>
 				<Input

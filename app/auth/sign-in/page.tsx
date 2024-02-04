@@ -29,6 +29,7 @@ const SignIn: FC = () => {
 
 	return (
 		<>
+			<title>Sign In | PrivateWorld</title>
 			<form onSubmit={handleSubmit}>
 				<FormHeading>Sign In</FormHeading>
 				<Input

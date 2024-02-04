@@ -23,6 +23,7 @@ const ForgotPassword: FC = () => {
 
 	return (
 		<>
+			<title>Forgot Password | PrivateWorld</title>
 			<form onSubmit={handleSubmit}>
 				<FormHeading>Forgot Password</FormHeading>
 				<Input
