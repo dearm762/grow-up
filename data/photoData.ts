@@ -1,4 +1,4 @@
-import { photoType } from '@/types/phototype'
+import photoType from '@/types/photoType'
 
 const photoData: Array<photoType> = [
 	{
