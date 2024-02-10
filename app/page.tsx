@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FC } from 'react'
-import routes from '@/data/routes'
+import routes from '@/data/routesData'
 import styles from './home.module.css'
 
 const Home: FC = () => {
