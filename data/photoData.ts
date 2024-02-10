@@ -1,7 +1,6 @@
-import Phototype from '@/types/Phototype'
+import photoType from '@/types/Phototype'
 
-
-const photoData: Array<Phototype> = [
+const photoData: Array<photoType> = [
 	{
 		id: '1',
 		src: '/me.jpg'

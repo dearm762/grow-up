@@ -1,7 +1,4 @@
-type routeType = {
-	name: string,
-	path: string
-}
+import routeType from '@/types/routeType'
 
 const routes: Array<routeType> = [
 	{ name: 'Home', path: '/' },

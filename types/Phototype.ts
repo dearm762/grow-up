@@ -1,6 +1,6 @@
-type Phototype = {
+type photoType = {
 	id: string,
 	src: string
 }
 
-export default Phototype
+export default photoType

@@ -5,12 +5,12 @@ import { Button, Input } from '@nextui-org/react'
 import { ChangeEvent, FC, useState } from 'react'
 import { EyeFilledIcon } from '@/components/EyeFilledIcon'
 import { EyeSlashFilledIcon } from '@/components/EyeSlashFilledIcon'
-import SignInValues from '@/types/sign-in-type'
+import SignInFormType from '@/types/signInForm'
 
 const SignIn: FC = () => {
 	const [isVisible, setIsVisible] = useState<boolean>(false)
 	const [isLoading, setIsLoading] = useState<boolean>(false)
-	const [data, setData] = useState<SignInValues>({
+	const [data, setData] = useState<SignInFormType>({
 		email: '',
 		password: '',
 	})

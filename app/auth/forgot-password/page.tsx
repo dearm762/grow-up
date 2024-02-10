@@ -1,13 +1,13 @@
 'use client'
 
 import FormHeading from '@/components/FormHeading'
-import ForgotValues from '@/types/forgot-type'
+import ForgotFormType from '@/types/forgotForm'
 import { Button, Input } from '@nextui-org/react'
 import { ChangeEvent, FC, useState } from 'react'
 
 const ForgotPassword: FC = () => {
 	const [isLoading, setIsLoading] = useState<boolean>(false)
-	const [data, setData] = useState<ForgotValues>({
+	const [data, setData] = useState<ForgotFormType>({
 		email: '',
 	})
 

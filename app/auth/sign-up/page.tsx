@@ -5,12 +5,12 @@ import { ChangeEvent, FC, useState } from 'react'
 import { EyeFilledIcon } from '@/components/EyeFilledIcon'
 import { EyeSlashFilledIcon } from '@/components/EyeSlashFilledIcon'
 import FormHeading from '@/components/FormHeading'
-import SignUpValues from '@/types/sign-up-type'
+import SignUpFormType from '@/types/signUpForm'
 
 const SignUp: FC = () => {
 	const [isVisible, setIsVisible] = useState<boolean>(false)
 	const [isLoading, setIsLoading] = useState<boolean>(false)
-	const [data, setData] = useState<SignUpValues>({
+	const [data, setData] = useState<SignUpFormType>({
 		surname: '',
 		name: '',
 		email: '',
