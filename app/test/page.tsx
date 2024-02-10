@@ -1,18 +1,16 @@
-'use client'
+import { FC } from 'react'
 
-import { useRef } from 'react'
-
-const Test = () => {
-	const inputRef = useRef<HTMLInputElement>(null)
-
-	const focus = () => {
-		console.log(inputRef.current?.value)
+interface ITest {
+	searchParams: {
+		a: string
+		b: string
 	}
+}
 
+const Test: FC<ITest> = ({ searchParams }) => {
 	return (
 		<>
-			<input className='text-white h-10 w-96 bg-black' ref={inputRef} />
-			<button onClick={() => focus()}>console.log</button>
+			<h2>{searchParams.a}</h2>
 		</>
 	)
 }
