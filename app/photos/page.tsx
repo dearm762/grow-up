@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FC } from 'react'
 
-import photoData from '../_system/photoData'
+import photoData from '@/data/photoData'
 import styles from './styles.module.css'
 
 const Photos: FC = () => {

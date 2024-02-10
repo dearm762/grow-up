@@ -1,11 +1,11 @@
 'use client'
 
-import { EyeFilledIcon } from '@/app/_system/EyeFilledIcon'
-import { EyeSlashFilledIcon } from '@/app/_system/EyeSlashFilledIcon'
-import FormHeading from '@/app/_system/components/FormHeading'
-import SignUpValues from '@/app/_system/sign-up-type'
 import { Button, Input } from '@nextui-org/react'
 import { ChangeEvent, FC, useState } from 'react'
+import { EyeFilledIcon } from '@/components/EyeFilledIcon'
+import { EyeSlashFilledIcon } from '@/components/EyeSlashFilledIcon'
+import FormHeading from '@/components/FormHeading'
+import SignUpValues from '@/types/sign-up-type'
 
 const SignUp: FC = () => {
 	const [isVisible, setIsVisible] = useState<boolean>(false)

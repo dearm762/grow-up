@@ -1,7 +1,5 @@
-type Phototype = {
-	id: string,
-	src: string
-}
+import Phototype from '@/types/Phototype'
+
 
 const photoData: Array<Phototype> = [
 	{

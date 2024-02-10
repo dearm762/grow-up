@@ -1,4 +1,4 @@
-import photoData from '@/app/_system/photoData'
+import photoData from '@/data/photoData'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { FC } from 'react'

@@ -1,7 +1,7 @@
 'use client'
 
-import FormHeading from '@/app/_system/components/FormHeading'
-import ForgotValues from '@/app/_system/forgot-type'
+import FormHeading from '@/components/FormHeading'
+import ForgotValues from '@/types/forgot-type'
 import { Button, Input } from '@nextui-org/react'
 import { ChangeEvent, FC, useState } from 'react'
 
