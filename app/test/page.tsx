@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 
 const Test: FC = () => {
 	const router = useRouter()
+	
 	return (
 		<>
 			<button onClick={() => router.push('/about')}>Click</button>
