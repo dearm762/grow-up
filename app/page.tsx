@@ -6,6 +6,9 @@ const Home: FC = () => {
 	return (
 		<>
 			<Header />
+			<main className={styles.main}>
+				1223
+			</main>
 		</>
 	)
 }
