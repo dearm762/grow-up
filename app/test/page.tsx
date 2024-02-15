@@ -1,14 +1,26 @@
 'use client'
 
-import { FC } from 'react'
-import setCookie from '@/actions/action'
+import { useFormState } from 'react-dom'
+import createUser from '@/actions/action'
 
-const Test: FC = () => {
+const initialState = {
+	message: '',
+}
+
+const Signup = () => {
+	const [state, formAction] = useFormState(createUser, initialState)
+
 	return (
-		<>
-			<button onClick={() => setCookie()}>click</button>
-		</>
+		<form action={formAction}>
+			<label htmlFor='email'>Email</label>
+			<input type='text' id='email' name='email' required />
+
+			<p aria-live='polite'>
+				{state?.message}
+			</p>
+			<button>Sign up</button>
+		</form>
 	)
 }
 
-export default Test
+export default Signup
