@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import containerStyle from '@/app/container.module.css'
+import containerStyle from '@/styles/container.module.css'
 
 const BlogPage: FC = () => {
 	return (
