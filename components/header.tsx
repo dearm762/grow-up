@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import { FC } from 'react'
 import { ScanEye } from 'lucide-react'
-import styles from './home.module.css'
+import styles from '@/styles/header.module.css'
 
 const Header: FC = () => {
 	return (
 		<header className={styles.header}>
 			<div>
 				<ScanEye width={45} height={45} />
-				<span>PrivateWorld</span>
+				<span>KeepInTouch</span>
 			</div>
 			<nav>
 				<Link href={'/'}>Home</Link>

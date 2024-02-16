@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Header from '@/components/header'
-import containerStyle from './container.module.css'
+import containerStyle from '@/styles/container.module.css'
 
 const Home: FC = () => {
 	return (
