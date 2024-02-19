@@ -6,7 +6,8 @@
     "dev": "start chrome http://localhost:3000 && next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "status": "start chrome https://vercel.com"
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
