@@ -1,7 +1,7 @@
 'use client'
 
 import { NextUIProvider } from '@nextui-org/react'
-import styles from './form.module.css'
+import styles from '@/styles/form.module.css'
 
 export default function AuthLayout({
 	children,
