@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { FC } from 'react'
 import { ScanEye } from 'lucide-react'
+
 import styles from '@/styles/header.module.css'
 
 const Header: FC = () => {
@@ -8,12 +9,12 @@ const Header: FC = () => {
 		<header className={styles.header}>
 			<div>
 				<ScanEye width={45} height={45} />
-				<span>KeepInTouch</span>
+				<h1>KeepInTouch</h1>
 			</div>
 			<nav>
 				<Link href={'/'}>Home</Link>
 				<Link href={'/blog'}>Blog</Link>
-				<Link href={'/Sign-in'}>Sign In</Link>
+				<Link href={'/auth/sign-in'}>Sign In</Link>
 			</nav>
 		</header>
 	)

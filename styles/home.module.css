@@ -1,3 +1,15 @@
 .heading {
     @apply text-5xl mx-auto mt-32 font-semibold;
 }
+
+.p {
+    @apply text-center max-w-screen-sm mx-auto mt-8;
+}
+
+.mobile {
+    @apply mt-8 mx-auto flex gap-8;
+}
+
+.mobile a {
+    @apply text-blue-500 flex gap-1 items-center hover:text-blue-600 transition-colors;
+}

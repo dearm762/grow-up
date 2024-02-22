@@ -7,7 +7,7 @@
 }
 
 .header nav {
-	@apply flex gap-6;
+	@apply flex gap-6 font-medium;
 }
 
 .header nav a {
