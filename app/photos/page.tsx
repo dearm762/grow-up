@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FC } from 'react'
 
 import photoData from '@/data/photoData'
-import styles from './styles.module.css'
+import styles from '@/styles/photos.module.css'
 
 const Photos: FC = () => {
 	return (
