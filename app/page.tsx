@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import Header from '@/components/header'
 
 import containerStyle from '@/styles/container.module.css'
+import styles from '@/styles/home.module.css'
 
 export const metadata: Metadata = {
 	title: 'KeepInTouch | Welcome!',
@@ -34,7 +35,7 @@ const Home: FC = () => {
 		<>
 			<Header />
 			<main className={containerStyle.mycontainer}>
-				<h1>New Era of Messaging</h1>
+				<h2 className={ styles.heading }>New Era of Messaging</h2>
 			</main>
 		</>
 	)
