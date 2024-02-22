@@ -7,7 +7,7 @@ const Home: FC = () => {
 		<>
 			<Header />
 			<main className={containerStyle.mycontainer}>
-				1223
+				<h1>Main page of KeepInTouch</h1>
 			</main>
 		</>
 	)
