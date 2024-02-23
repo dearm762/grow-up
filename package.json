@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel": "start chrome https://vercel.com",
-    "github": "start chrome https://github.com/dearm762/next-app",
-    "docs": "start chrome https://nextjs.org/docs"
+    "vercel": "open -a \"Google Chrome\" https://vercel.com",
+    "github": "open -a \"Google Chrome\"  https://github.com/dearm762/next-app",
+    "docs": "open -a \"Google Chrome\" https://nextjs.org/docs"
   },
   "dependencies": {
     "lucide-react": "^0.323.0",
