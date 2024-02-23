@@ -11,5 +11,5 @@
 }
 
 .mobile a {
-    @apply text-blue-500 flex gap-1 items-center hover:text-blue-600 transition-colors;
+    @apply text-blue-500 flex gap-1 items-center hover:text-blue-600 transition-colors hover:underline;
 }
