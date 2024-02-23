@@ -1,12 +1,12 @@
 import { FC } from 'react'
 import type { Metadata } from 'next'
 import { ArrowUpRightFromSquare } from 'lucide-react'
+import Link from 'next/link'
 
 import Header from '@/components/header'
 
 import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/home.module.css'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
 	title: 'KeepInTouch | Welcome!',
