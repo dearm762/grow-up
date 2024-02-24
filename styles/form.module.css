@@ -1,0 +1,15 @@
+.form {
+    @apply flex max-h-svh overflow-y-hidden;
+}
+
+.form form, .form aside {
+    @apply grow;
+}
+
+.form aside {
+    @apply relative;
+}
+
+.form aside img {
+    @apply absolute;
+}
