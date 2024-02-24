@@ -2,7 +2,7 @@
 	@apply container mx-auto h-20 flex items-center justify-between pt-3 px-9 select-none absolute top-0 left-0 right-0;
 }
 
-.header div {
+.header a {
 	@apply flex items-center gap-6 text-2xl;
 }
 
