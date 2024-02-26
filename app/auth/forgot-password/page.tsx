@@ -14,7 +14,7 @@ const ForgotPage = () => {
           <form className={ styles.form } action={signIn} method='POST'>
             <h1 className={ styles.heading }>Forgot Password</h1>
             <input className={ styles.input } type="email" name="email" placeholder="Email" required />
-            <button type="submit" className={ styles.button }>Sign In</button>
+            <button type="submit" className={ styles.button }>Send email</button>
           </form>
         </div>
         <div className={ styles.overlayContainer }>
