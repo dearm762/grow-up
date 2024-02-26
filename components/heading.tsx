@@ -1,8 +1,10 @@
 import { FC } from 'react'
 
-import HeadingPropsType from '@/types/headingProps'
-
 import styles from '@/styles/heading.module.css'
+
+type HeadingPropsType = {
+  children: string
+}
 
 const Heading: FC<HeadingPropsType> = ({ children }) => {
   return (
