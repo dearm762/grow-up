@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+
 import signUp from '@/actions/signUp'
 
 import styles from '@/styles/form.module.css'

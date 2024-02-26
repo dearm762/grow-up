@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+
 import forgotPassword from '@/actions/forgotPassword'
 
 import styles from '@/styles/form.module.css'

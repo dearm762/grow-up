@@ -1,6 +1,7 @@
 import { cookies } from "next/headers"
-import Header from "@/components/header"
 import { redirect } from "next/navigation"
+
+import Header from "@/components/header"
 
 const HomePage = () => {
   const cookieStore = cookies()
