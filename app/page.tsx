@@ -17,7 +17,7 @@ const Home: FC = () => {
 		<>
 			<Header />
 			<main className={containerStyle.mycontainer}>
-				<h2 className={ styles.heading }>New Era of Messaging</h2>
+				<h2 className={ styles.heading }>New Era of Communicating</h2>
 				<p className={ styles.p }>
 					KeepInTouch is a messaging app with a focus on speed and security,
 					it’s super-fast, simple and free. You can use KeepInTouch on all

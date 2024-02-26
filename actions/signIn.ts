@@ -21,6 +21,6 @@ export default async function signIn(formData: FormData) {
         cookieStore.set('ssid', resJson.ssid)
         permanentRedirect('/home')
     } else {
-        console.log('error')
+        console.log(resJson.message)
     }
 }

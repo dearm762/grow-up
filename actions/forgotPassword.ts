@@ -20,6 +20,6 @@ export default async function forgotPassword(formData: FormData) {
         cookieStore.set('ssid', resJson.ssid)
         permanentRedirect('/')
     } else {
-        console.log('error')
+        console.log(resJson.message)
     }
 }
