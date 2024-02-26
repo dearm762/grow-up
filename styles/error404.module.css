@@ -1,0 +1,62 @@
+.flexContainer {
+    @apply flex justify-center items-center text-white bg-black h-screen select-none;
+}
+
+.textCenter {
+    @apply text-center;
+}
+
+.textCenter h1,
+.textCenter h3 {
+    @apply cursor-default m-2;
+}
+
+.textCenter h1 .fadeIn {
+    animation: fadeIn 2s ease infinite;
+}
+
+.textCenter h1 {
+    font-size: 8em;
+    transition: font-size 200ms ease-in-out;
+    border-bottom: 1px dashed white;
+}
+
+.textCenter h1 #digit1 {
+    animation-delay: 200ms;
+}
+
+.textCenter h1 #digit2 {
+    animation-delay: 300ms;
+}
+
+.textCenter h1 #digit3 {
+    animation-delay: 400ms;
+}
+
+.textCenter a {
+    border: 1px solid white;
+    background: transparent;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 200ms ease-in;
+    margin: 20px 0;
+}
+
+.textCenter a:hover {
+    color: #555;
+    @apply cursor-pointer bg-white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
