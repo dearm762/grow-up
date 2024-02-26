@@ -1,15 +1,21 @@
-'use client'
+import { cookies } from "next/headers"
+import Header from "@/components/header"
+import { redirect } from "next/navigation"
 
-import type { Metadata } from "next"
+const HomePage = () => {
+  const cookieStore = cookies()
+  const ssid = cookieStore.get('ssid')
 
-export const metadata: Metadata = {
-  title: 'KeepInTouch | Home'
-}
+  if (!ssid) redirect('/')
 
-const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <title>KeepInTouch | Home</title>
+      <Header isAuthorized={ ssid.value } />
+      <div>
+      </div>
+    </>
   )
 }
 
-export default Home
+export default HomePage

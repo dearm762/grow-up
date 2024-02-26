@@ -2,6 +2,8 @@ import { FC } from 'react'
 import type { Metadata } from 'next'
 import { ArrowUpRightFromSquare } from 'lucide-react'
 import Link from 'next/link'
+import { cookies } from 'next/headers'
+import { redirect } from 'next/navigation'
 
 import Header from '@/components/header'
 
@@ -13,9 +15,14 @@ export const metadata: Metadata = {
 }
 
 const Home: FC = () => {
+	const cookieStore = cookies()
+  	const ssid = cookieStore.get('ssid')
+
+	if (ssid) redirect('/home')
+
 	return (
 		<>
-			<Header />
+			<Header isAuthorized={ ssid } />
 			<main className={containerStyle.mycontainer}>
 				<h2 className={ styles.heading }>New Era of Communicating</h2>
 				<p className={ styles.p }>

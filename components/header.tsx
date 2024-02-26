@@ -4,17 +4,24 @@ import { ScanEye } from 'lucide-react'
 
 import styles from '@/styles/header.module.css'
 
-const Header: FC = () => {
+interface IHeader {
+	isAuthorized?: string | undefined
+}
+
+const Header: FC<IHeader> = ({ isAuthorized }) => {
 	return (
 		<header className={styles.header}>
-			<Link href={'/'}>
+			<Link href={ isAuthorized ? '/home' : '/'}>
 				<ScanEye width={45} height={45} />
 				<h1>KeepInTouch</h1>
 			</Link>
 			<nav>
-				<Link href={'/home'}>Home</Link>
 				<Link href={'/blog'}>Blog</Link>
-				<Link href={'/auth/sign-in'}>Sign In</Link>
+				{
+					isAuthorized
+					? <Link href={'/users'}>Profile</Link>
+					: <Link href={'/auth/sign-in'}>Sign In</Link>
+				}
 			</nav>
 		</header>
 	)

@@ -1,5 +1,5 @@
 .header {
-	@apply container mx-auto h-20 flex items-center justify-between pt-3 px-9 select-none absolute top-0 left-0 right-0;
+	@apply container mx-auto h-20 flex items-center justify-between pt-3 px-9 select-none fixed top-0 left-0 right-0;
 }
 
 .header a {
