@@ -8,10 +8,11 @@ import styles from '@/styles/form.module.css'
 const SignInPage = () => {
   return (
     <>
+      <title>KeepInTouch | Sign In</title>
       <div className={styles.wrapper}>
         <div className={ styles.formAuth }>
           <form className={ styles.form } action={signIn} method='POST'>
-            <h1 className={ styles.heading }>Sign in</h1>
+            <h1 className={ styles.heading }>Sign In</h1>
             <input className={ styles.input } type="email" name="email" placeholder="Email" required />
             <input className={ styles.input } type="password" name="password" placeholder="Password" required />
             <Link href="/auth/forgot-password">Forgot your password?</Link>

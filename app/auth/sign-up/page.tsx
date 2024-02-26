@@ -8,6 +8,7 @@ import styles from '@/styles/form.module.css'
 const SignUpPage = () => {
   return (
     <>
+      <title>KeepInTouch | Sign Up</title>
       <div className={styles.wrapper}>
       <div className={ styles.formAuth }>
           <form className={ styles.form } action={signUp}>
