@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import signIn from '@/actions/signIn'
+import forgotPassword from '@/actions/forgotPassword'
 
 import styles from '@/styles/form.module.css'
 
@@ -11,7 +11,7 @@ const ForgotPage = () => {
       <title>KeepInTouch | Forgot Password</title>
       <div className={styles.wrapper}>
         <div className={ styles.formAuth }>
-          <form className={ styles.form } action={signIn} method='POST'>
+          <form className={ styles.form } action={forgotPassword} method='POST'>
             <h1 className={ styles.heading }>Forgot Password</h1>
             <input className={ styles.input } type="email" name="email" placeholder="Email" required />
             <button type="submit" className={ styles.button }>Send email</button>
