@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "open -a \"Google Chrome\" http://localhost:3000 && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "open -a \"Google Chrome\" http://localhost:3000 && next start",
     "lint": "next lint",
     "vercel": "open -a \"Google Chrome\" https://vercel.com",
     "github": "open -a \"Google Chrome\"  https://github.com/dearm762/next-app",
