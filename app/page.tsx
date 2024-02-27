@@ -23,7 +23,7 @@ const Home: FC = () => {
 	return (
 		<>
 			<Header isAuthorized={ ssid } />
-			<main className={containerStyle.mycontainer}>
+			<main className={ containerStyle.mycontainer }>
 				<h2 className={ styles.heading }>New Era of Communicating</h2>
 				<p className={ styles.p }>
 					KeepInTouch is a messaging app with a focus on speed and security,
