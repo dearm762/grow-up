@@ -37,11 +37,11 @@ const Home: FC = () => {
 
 				<div className={ styles.mobile }>
 					<Link href={'/mobile/android'}>
-						<span>KeepInTouch for Android</span>
+						<span>GrowUp для Android</span>
 						<ArrowUpRightFromSquare width={17} height={17} />
 					</Link>
 					<Link href={'/mobile/ios'}>
-						<span>KeepInTouch for IPhone / Ipad</span>
+						<span>GrowUp для IPhone / Ipad</span>
 						<ArrowUpRightFromSquare width={17} height={17} />
 					</Link>
 				</div>
