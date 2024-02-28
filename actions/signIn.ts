@@ -19,7 +19,7 @@ export default async function signIn(formData: FormData) {
 
     if (resJson.status) {
         cookieStore.set('ssid', resJson.ssid)
-        permanentRedirect('/home')
+        permanentRedirect('/dashboard')
     } else {
         console.log(resJson.message)
     }

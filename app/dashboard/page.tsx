@@ -4,7 +4,7 @@ import { redirect } from "next/navigation"
 
 import Header from "@/components/header"
 
-const HomePage: FC = () => {
+const DashboardPage: FC = () => {
   const cookieStore = cookies()
   const ssid = cookieStore.get('ssid')
 
@@ -20,4 +20,4 @@ const HomePage: FC = () => {
   )
 }
 
-export default HomePage
+export default DashboardPage
