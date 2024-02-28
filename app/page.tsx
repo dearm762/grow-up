@@ -7,6 +7,7 @@ import Header from '@/components/header'
 import Introduction from '@/components/introduction'
 
 import containerStyle from '@/styles/container.module.css'
+import styles from '@/styles/home.module.css'
 
 export const metadata: Metadata = {
 	title: 'GrowUp | платформа для саморазвитий!',
@@ -23,8 +24,10 @@ const Home: FC = () => {
 			<Header isAuthorized={ ssid } />
 			<Introduction />
 			<hr  />
-			<div className={ containerStyle.myContainer }>
-				<h1>fghjk</h1>
+			<div className={ containerStyle.mycontainer + ' px-9' }>
+				<div className={ '' }>
+
+				</div>
 			</div>
 		</>
 	)
