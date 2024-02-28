@@ -1,12 +1,13 @@
 'use client'
 
+import { FC } from 'react'
 import Link from 'next/link'
 
 import forgotPassword from '@/actions/forgotPassword'
 
 import styles from '@/styles/form.module.css'
 
-const ForgotPage = () => {
+const ForgotPage: FC = () => {
   return (
     <>
       <title>KeepInTouch | Forgot Password</title>

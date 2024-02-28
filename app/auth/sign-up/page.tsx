@@ -1,12 +1,13 @@
 'use client'
 
+import { FC } from 'react'
 import Link from 'next/link'
 
 import signUp from '@/actions/signUp'
 
 import styles from '@/styles/form.module.css'
 
-const SignUpPage = () => {
+const SignUpPage: FC = () => {
   return (
     <>
       <title>KeepInTouch | Sign Up</title>

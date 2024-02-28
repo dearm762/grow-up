@@ -1,11 +1,12 @@
 'use client'
 
+import { FC } from 'react'
 import Link from 'next/link'
 import signIn from '@/actions/signIn'
 
 import styles from '@/styles/form.module.css'
 
-const SignInPage = () => {
+const SignInPage: FC = () => {
   return (
     <>
       <title>KeepInTouch | Sign In</title>

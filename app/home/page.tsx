@@ -1,9 +1,10 @@
+import { FC } from 'react'
 import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
 
 import Header from "@/components/header"
 
-const HomePage = () => {
+const HomePage: FC = () => {
   const cookieStore = cookies()
   const ssid = cookieStore.get('ssid')
 
