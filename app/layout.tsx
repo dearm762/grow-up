@@ -8,25 +8,24 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   	title: 'GrowUp | платформа для саморазвитий',
-  	description: 'First social media by Kazakhstan',
+  	description: 'GrowUp — ведущую платформу для саморазвития! Наши инновационные инструменты и курсы помогут вам эффективно развиваться в любой области',
 	keywords: [
-		"Kazakhstan", "Astana", "Almaty",
-    	"Central Asia", "Silk Road", "Nomad",
-    	"Steppe", "Culture", "Tradition",
-    	"History", "Kazakh", "Russian",
-    	"Ethnicity", "Diversity", "Hospitality", 
-		"Nature", "Mountains", "Lakes",
-    	"Tourism", "Adventure", "Cuisine",
-    	"Baikonur", "Space", "Technology",
-    	"Economy", "Business", "Innovation",
-    	"Education", "Youth", "Fashion",
-    	"Art", "Music", "Film",
-    	"Literature", "Sports", "Football",
-    	"Wrestling", "Ice Skating", "National Holidays",
-    	"Independence", "Unity", "Multiculturalism",
-    	"Language", "Cyrillic", "Urban Life",
-    	"Rural Life", "Family", "Friendship",
-    	"Networking", "Social Change"
+		"саморазвитие", "платформа для обучения", "личный рост",
+		"курсы саморазвития", "профессиональное развитие", "образовательные ресурсы",
+		"развитие навыков", "учебные программы", "онлайн обучение",
+		"карьерный рост", "эффективность", "мотивация",
+		"успех", "знания", "навыки", 
+		"продуктивность", "самоусовершенствование", "инновации",
+		"творчество", "цели", "аспирант",
+		"повышение квалификации", "вдохновение", "самообразование",
+		"обучающие материалы", "интеллектуальный рост", "цифровая грамотность",
+		"техническое обучение", "рост личности", "компетенции",
+		"академические курсы", "креативность", "наставничество",
+		"менторство", "умения", "интерактивное обучение",
+		"курсы онлайн", "семинары", "вебинары",
+		"обучающие видео", "повышение профессионального уровня", "программы развития",
+		"тренинги", "инструменты обучения", "развитие лидерских качеств",
+		"обучение на рабочем месте", "адаптивное обучение", "сообщество обучающихся"
 	]
 }
 
