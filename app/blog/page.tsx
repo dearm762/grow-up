@@ -17,11 +17,11 @@ const BlogPage: FC = () => {
 
 	return (
 		<>
-			<div className={containerStyle.mycontainer}>
+			<div className={containerStyle.mycontainer + ' mt-20 px-9'}>
 				<Header isAuthorized={ ssid?.value } />
 				<main>
 					<Heading>
-						KeepInTouch | Blog:
+						KeepInTouch | Блог:
 					</Heading>
 				</main>
 			</div>

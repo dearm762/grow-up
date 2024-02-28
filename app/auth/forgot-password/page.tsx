@@ -14,17 +14,17 @@ const ForgotPage: FC = () => {
       <div className={styles.wrapper}>
         <div className={ styles.formAuth }>
           <form className={ styles.form } action={forgotPassword} method='POST'>
-            <h1 className={ styles.heading }>Forgot Password</h1>
-            <input className={ styles.input } type="email" name="email" placeholder="Email" required />
-            <button type="submit" className={ styles.button }>Send email</button>
+            <h1 className={ styles.heading }>Забыли пароль</h1>
+            <input className={ styles.input } type="email" name="email" placeholder="Электронная почта" required />
+            <button type="submit" className={ styles.button }>Отправить письмо</button>
           </form>
         </div>
         <div className={ styles.overlayContainer }>
           <div className={ styles.overlay }>
             <div className={ styles.overlayPanelRight }>
-              <h1 className={ styles.heading }>Hello, Friend!</h1>
-              <p className={ styles.paragraph }>Enter your personal details and start journey with us</p>
-              <Link href='/auth/sign-in' className={ styles.ghost } >Sign In</Link>
+              <h1 className={ styles.heading }>Привет, друг!</h1>
+              <p className={ styles.paragraph }>Введите свои личные данные и начните путешествие вместе с нами</p>
+              <Link href='/auth/sign-in' className={ styles.ghost } >Войти</Link>
             </div>
           </div>
         </div>
