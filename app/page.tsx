@@ -34,7 +34,6 @@ const Home: FC = () => {
 				готовое поддержать вас на каждом шаге вашего пути к успеху.
 				Давайте расти вместе!
 				</p>
-
 				<div className={ styles.mobile }>
 					<Link href={'/mobile/android'}>
 						<span>GrowUp для Android</span>

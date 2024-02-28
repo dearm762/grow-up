@@ -1,5 +1,5 @@
 .heading {
-    @apply text-5xl mx-auto mt-32 font-semibold;
+    @apply text-5xl mx-auto mt-auto font-semibold;
 }
 
 .p {
@@ -7,7 +7,7 @@
 }
 
 .mobile {
-    @apply mt-8 mx-auto flex gap-8;
+    @apply mt-8 mx-auto flex gap-8 mb-auto;
 }
 
 .mobile a {

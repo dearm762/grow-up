@@ -16,11 +16,11 @@ const Header: FC<IHeader> = ({ isAuthorized }) => {
 				<h1>GrowUp</h1>
 			</Link>
 			<nav>
-				<Link href={'/blog'}>Blog</Link>
+				<Link href={'/blog'}>Блог</Link>
 				{
 					isAuthorized
-					? <Link href={'/users'}>Profile</Link>
-					: <Link href={'/auth/sign-in'}>Sign In</Link>
+					? <Link href={'/users'}>Профиль</Link>
+					: <Link href={'/auth/sign-in'}>Войти</Link>
 				}
 			</nav>
 		</header>
