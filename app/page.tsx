@@ -11,7 +11,7 @@ import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/home.module.css'
 
 export const metadata: Metadata = {
-	title: 'KeepInTouch | Welcome!',
+	title: 'GrowUp | платформа для саморазвитий!',
 }
 
 const Home: FC = () => {
@@ -24,12 +24,15 @@ const Home: FC = () => {
 		<>
 			<Header isAuthorized={ ssid } />
 			<main className={ containerStyle.mycontainer }>
-				<h2 className={ styles.heading }>New Era of Communicating</h2>
+				<h2 className={ styles.heading }>GrowUp | платформа для саморазвитий!</h2>
 				<p className={ styles.p }>
-					KeepInTouch is a messaging app with a focus on speed and security,
-					it’s super-fast, simple and free. You can use KeepInTouch on all
-					your devices at the same time — your messages sync seamlessly
-					across any number of your phones, tablets or computers.
+				Пространство, чтобы помочь вам раскрыть свой потенциал,
+				достичь новых высот и стать лучшей версией себя.
+				Независимо от того, какие цели вы ставите перед собой
+				— обучение, карьерный рост, личное развитие или преодоление вызовов
+				— здесь вы найдете ресурсы, инструменты и сообщество,
+				готовое поддержать вас на каждом шаге вашего пути к успеху.
+				Давайте расти вместе!
 				</p>
 
 				<div className={ styles.mobile }>

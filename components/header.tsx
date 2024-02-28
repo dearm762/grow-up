@@ -13,7 +13,7 @@ const Header: FC<IHeader> = ({ isAuthorized }) => {
 		<header className={styles.header}>
 			<Link href={ isAuthorized ? '/home' : '/'}>
 				<ScanEye width={45} height={45} />
-				<h1>KeepInTouch</h1>
+				<h1>GrowUp</h1>
 			</Link>
 			<nav>
 				<Link href={'/blog'}>Blog</Link>

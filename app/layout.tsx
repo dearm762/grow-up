@@ -7,7 +7,7 @@ import '@/styles/index.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  	title: 'My Next App',
+  	title: 'GrowUp | платформа для саморазвитий',
   	description: 'First social media by Kazakhstan',
 	keywords: [
 		"Kazakhstan", "Astana", "Almaty",
