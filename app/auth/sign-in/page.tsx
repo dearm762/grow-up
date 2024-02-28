@@ -9,7 +9,7 @@ import styles from '@/styles/form.module.css'
 const SignInPage: FC = () => {
   return (
     <>
-      <title>KeepInTouch | Sign In</title>
+      <title>GrowUp | Войти</title>
       <div className={styles.wrapper}>
         <div className={ styles.formAuth }>
           <form className={ styles.form } action={signIn} method='POST'>

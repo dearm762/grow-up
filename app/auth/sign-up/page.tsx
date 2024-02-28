@@ -10,7 +10,7 @@ import styles from '@/styles/form.module.css'
 const SignUpPage: FC = () => {
   return (
     <>
-      <title>KeepInTouch | Sign Up</title>
+      <title>GrowUp | Зарегистрироваться</title>
       <div className={styles.wrapper}>
       <div className={ styles.formAuth }>
           <form className={ styles.form } action={signUp}>

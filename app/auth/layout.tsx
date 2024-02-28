@@ -9,7 +9,7 @@ export default function DashboardLayout({
     const cookieStore = cookies()
   	const ssid = cookieStore.get('ssid')
 
-	if (ssid) redirect('/home')
+	if (ssid) redirect('/dashboard')
     
     return (
         children

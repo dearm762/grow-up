@@ -10,7 +10,7 @@ import styles from '@/styles/form.module.css'
 const ForgotPage: FC = () => {
   return (
     <>
-      <title>KeepInTouch | Forgot Password</title>
+      <title>GrowUp | Забыли пароль</title>
       <div className={styles.wrapper}>
         <div className={ styles.formAuth }>
           <form className={ styles.form } action={forgotPassword} method='POST'>

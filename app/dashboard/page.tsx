@@ -4,6 +4,8 @@ import { redirect } from "next/navigation"
 
 import Header from "@/components/header"
 
+import containerStyle from '@/styles/container.module.css'
+
 const DashboardPage: FC = () => {
   const cookieStore = cookies()
   const ssid = cookieStore.get('ssid')
@@ -14,8 +16,9 @@ const DashboardPage: FC = () => {
     <>
       <title>KeepInTouch | Home</title>
       <Header isAuthorized={ ssid.value } />
-      <div>
-      </div>
+      <main className={ containerStyle.mycontainer }>
+        
+      </main>
     </>
   )
 }

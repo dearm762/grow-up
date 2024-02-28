@@ -19,9 +19,11 @@ const BlogPage: FC = () => {
 		<>
 			<div className={containerStyle.mycontainer}>
 				<Header isAuthorized={ ssid?.value } />
-				<Heading>
-					KeepInTouch | Blog:
-				</Heading>
+				<main>
+					<Heading>
+						KeepInTouch | Blog:
+					</Heading>
+				</main>
 			</div>
 		</>
 	)

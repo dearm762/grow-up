@@ -11,7 +11,7 @@ interface IHeader {
 const Header: FC<IHeader> = ({ isAuthorized }) => {
 	return (
 		<header className={styles.header}>
-			<Link href={ isAuthorized ? '/home' : '/'}>
+			<Link href={ isAuthorized ? '/dashboard' : '/'}>
 				<ScanEye width={45} height={45} />
 				<h1>GrowUp</h1>
 			</Link>
