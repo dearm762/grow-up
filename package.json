@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "open -a \"Google Chrome\" http://localhost:3000 && next dev",
+    "dev": "start chrome http://localhost:3000 && next dev",
     "build": "next build",
     "start": "open -a \"Google Chrome\" http://localhost:3000 && next start",
     "lint": "next lint",
