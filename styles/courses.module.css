@@ -3,9 +3,27 @@
 }
 
 .categories {
-	@apply mx-auto flex gap-5 bg-white p-6 rounded-xl;
+	@apply mx-auto flex gap-5 bg-white p-6 rounded-xl items-center;
 }
 
 .heading {
-	@apply mx-auto text-5xl font-semibold;
+	@apply mx-auto text-5xl font-semibold mt-5;
+}
+
+.activeButton {
+	@apply text-white bg-cyan-500 border border-transparent py-2 px-4 rounded-md shadow-sm;
+	transition: background-color 0.3s ease;
+}
+
+.activeButton:hover {
+	@apply bg-cyan-700;
+}
+
+.button {
+	@apply text-gray-800 bg-gray-200 hover:bg-gray-300 border border-gray-300 py-2 px-4 rounded-md shadow-sm;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #d1d5db;
 }
