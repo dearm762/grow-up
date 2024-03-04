@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import courseCardStyle from '@/styles/courses.module.css'
 
@@ -8,13 +9,17 @@ const CourseCard = () => {
 			<div className={courseCardStyle.courseCard}>
 				<Image
 					src='/thumbnail.jpg'
-					width={160}
-					height={90}
+					width={999}
+					height={999}
 					alt='course image'
 					className={courseCardStyle.courseImage}
 				/>
-				<h3 className={courseCardStyle.courseHeading}>Анимаций css, scss и sass</h3>
-				<button className={courseCardStyle.courseButton}>Подробнее</button>
+				<h3 className={courseCardStyle.courseHeading}>
+					Анимаций css, scss и sass
+				</h3>
+				<Link href={''} className={courseCardStyle.courseButton}>
+					Подробнее
+				</Link>
 			</div>
 		</>
 	)
