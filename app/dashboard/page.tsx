@@ -14,7 +14,7 @@ const DashboardPage: FC = () => {
 
   return (
     <>
-      <title>KeepInTouch | Home</title>
+      <title>GrowUp | Home</title>
       <Header isAuthorized={ ssid.value } />
       <main className={ containerStyle.mycontainer }>
         

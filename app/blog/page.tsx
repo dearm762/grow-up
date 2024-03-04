@@ -8,7 +8,7 @@ import Heading from '@/components/heading'
 import containerStyle from '@/styles/container.module.css'
 
 export const metadata: Metadata = {
-	title: 'KeepInTouch | Blog',
+	title: 'GrowUp | Blog',
 }
 
 const BlogPage: FC = () => {
