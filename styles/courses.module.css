@@ -27,3 +27,7 @@
 .button:hover {
 	background-color: #d1d5db;
 }
+
+.coursesContainer {
+	@apply p-5 bg-white rounded-2xl mt-2;
+}

@@ -54,7 +54,7 @@ const Courses: FC = () => {
 						Популярные
 					</button>
 				</div>
-				{category}
+				<div className={ styles.coursesContainer }>1234</div>
 			</div>
 		</div>
 	)
