@@ -1,10 +1,11 @@
+import { FC } from 'react'
 import { ArrowUpRightFromSquare } from 'lucide-react'
 import Link from 'next/link'
 
 import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/introduction.module.css'
 
-function Introduction() {
+const Introduction: FC = () => {
 	return (
 		<>
 			<main className={containerStyle.mycontainer + ' border-b-2 border-black'}>

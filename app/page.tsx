@@ -21,7 +21,7 @@ const Home: FC = () => {
 
 	return (
 		<>
-			<Header isAuthorized={ssid} />
+			<Header isAuthorized={ssid} />``
 			<Introduction />
 			<div className={containerStyle.mycontainer + ' px-9'}>
 				<div className={''}></div>
