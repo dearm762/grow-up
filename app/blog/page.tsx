@@ -21,7 +21,7 @@ const BlogPage: FC = () => {
 				<Header isAuthorized={ ssid?.value } />
 				<main>
 					<Heading>
-						KeepInTouch | Блог:
+						GrowUp | Блог:
 					</Heading>
 				</main>
 			</div>
