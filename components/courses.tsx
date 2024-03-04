@@ -1,12 +1,14 @@
 'use client'
 
-import { useState } from 'react'
+import { FC, useState } from 'react'
 
 import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/courses.module.css'
 
-const Courses = () => {
-	const [category, setCategory] = useState<string>()
+type category = 'all' | 'alphabet' | 'new' | 'popular'
+
+const Courses: FC = () => {
+	const [category, setCategory] = useState<category>()
 
 	return (
 		<>
