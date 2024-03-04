@@ -10,7 +10,8 @@ const Introduction: FC = () => {
 		<>
 			<main
 				className={
-					containerStyle.mycontainer + ' border-b-2 border-black rounded-md'
+					containerStyle.mycontainer +
+					' border-b-2 border-black rounded-md select-none'
 				}
 			>
 				<h2 className={styles.heading}>GrowUp | платформа для саморазвитий!</h2>

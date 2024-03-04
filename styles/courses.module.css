@@ -1,0 +1,11 @@
+.courses {
+	@apply flex flex-col py-16 gap-5;
+}
+
+.categories {
+	@apply mx-auto flex gap-5 bg-white p-6 rounded-xl;
+}
+
+.heading {
+	@apply mx-auto text-5xl font-semibold;
+}

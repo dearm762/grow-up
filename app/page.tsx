@@ -5,8 +5,8 @@ import { redirect } from 'next/navigation'
 
 import Header from '@/components/header'
 import Introduction from '@/components/introduction'
+import Courses from '@/components/courses'
 
-import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/home.module.css'
 
 export const metadata: Metadata = {
@@ -22,22 +22,7 @@ const Home: FC = () => {
 		<>
 			<Header isAuthorized={ssid} />
 			<Introduction />
-			<div
-				className={
-					containerStyle.mycontainer + ' px-9 bg-cyan-100 my-16 rounded-3xl'
-				}
-			>
-				<div className={styles.courses}>
-					<h2 className={styles.heading}>Измени жизнь этой весной</h2>
-					<div className={styles.categories}>
-						<h2>Категорий:</h2>
-						<button>Все</button>
-						<button>алфавиту</button>
-						<button>Новое</button>
-						<button>Популярные</button>
-					</div>
-				</div>
-			</div>
+			<Courses />
 		</>
 	)
 }
