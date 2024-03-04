@@ -16,15 +16,27 @@ export const metadata: Metadata = {
 const Home: FC = () => {
 	const cookieStore = cookies()
 	const ssid = cookieStore.get('ssid')
-
 	if (ssid) redirect('/dashboard')
 
 	return (
 		<>
-			<Header isAuthorized={ssid} />``
+			<Header isAuthorized={ssid} />
 			<Introduction />
-			<div className={containerStyle.mycontainer + ' px-9'}>
-				<div className={''}></div>
+			<div
+				className={
+					containerStyle.mycontainer + ' px-9 bg-cyan-100 my-16 rounded-3xl'
+				}
+			>
+				<div className={styles.courses}>
+					<h2 className={styles.heading}>Измени жизнь этой весной</h2>
+					<div className={styles.categories}>
+						<h2>Категорий:</h2>
+						<button>Все</button>
+						<button>алфавиту</button>
+						<button>Новое</button>
+						<button>Популярные</button>
+					</div>
+				</div>
 			</div>
 		</>
 	)

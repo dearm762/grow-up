@@ -8,7 +8,11 @@ import styles from '@/styles/introduction.module.css'
 const Introduction: FC = () => {
 	return (
 		<>
-			<main className={containerStyle.mycontainer + ' border-b-2 border-black'}>
+			<main
+				className={
+					containerStyle.mycontainer + ' border-b-2 border-black rounded-md'
+				}
+			>
 				<h2 className={styles.heading}>GrowUp | платформа для саморазвитий!</h2>
 				<p className={styles.p}>
 					Пространство, чтобы помочь вам раскрыть свой потенциал, достичь новых
