@@ -2,6 +2,8 @@
 
 import { FC, useState, useCallback } from 'react'
 
+import CourseCard from './courseCard'
+
 import containerStyle from '@/styles/container.module.css'
 import styles from '@/styles/courses.module.css'
 
@@ -54,7 +56,10 @@ const Courses: FC = () => {
 						Популярные
 					</button>
 				</div>
-				<div className={ styles.coursesContainer }>1234</div>
+
+				<div className={styles.coursesContainer}>
+					<CourseCard />
+				</div>
 			</div>
 		</div>
 	)
