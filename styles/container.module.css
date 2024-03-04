@@ -1,4 +1,5 @@
 .mycontainer {
 	@apply container mx-auto flex flex-col;
 	min-height: calc(100vh - 160px);
+	max-width: calc(100vw - 150px);
 }

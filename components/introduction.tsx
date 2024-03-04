@@ -11,7 +11,7 @@ const Introduction: FC = () => {
 			<main
 				className={
 					containerStyle.mycontainer +
-					' border-b-2 border-black rounded-md select-none'
+					' border-b-2 border-black rounded-md select-none mx-5'
 				}
 			>
 				<h2 className={styles.heading}>GrowUp | платформа для саморазвитий!</h2>
